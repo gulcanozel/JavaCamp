@@ -25,7 +25,7 @@ public class Main {
 		authManager.login(userDto);
 		
 		
-		UserDto userDto1=new UserDto("fgbnm", "");
+		UserDto userDto1=new UserDto("fgbnm", "12");
 		authManager.login(userDto1);
 
 	}
